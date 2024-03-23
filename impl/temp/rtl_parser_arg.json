@@ -1,0 +1,65 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "D:/fpga/gowin/riscv_5_floor/src/core.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/fpga/gowin/riscv_5_floor/src/ex/alu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/fpga/gowin/riscv_5_floor/src/ex_mem.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/fpga/gowin/riscv_5_floor/src/id/bubble.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/fpga/gowin/riscv_5_floor/src/id/democe.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/fpga/gowin/riscv_5_floor/src/id/id.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/fpga/gowin/riscv_5_floor/src/id/registers.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/fpga/gowin/riscv_5_floor/src/id_ex.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/fpga/gowin/riscv_5_floor/src/if/if.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/fpga/gowin/riscv_5_floor/src/if/pc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/fpga/gowin/riscv_5_floor/src/if_id.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/fpga/gowin/riscv_5_floor/src/mem_wb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/fpga/gowin/riscv_5_floor/src/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/fpga/gowin/riscv_5_floor/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

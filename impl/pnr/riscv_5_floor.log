@@ -1,0 +1,29 @@
+Reading netlist file: "D:\fpga\gowin\riscv_5_floor\impl\gwsynthesis\riscv_5_floor.vg"
+Parsing netlist file "D:\fpga\gowin\riscv_5_floor\impl\gwsynthesis\riscv_5_floor.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\fpga\gowin\riscv_5_floor\src\riscv_5_floor.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\fpga\gowin\riscv_5_floor\impl\pnr\riscv_5_floor.power.html" completed
+Generate file "D:\fpga\gowin\riscv_5_floor\impl\pnr\riscv_5_floor.pin.html" completed
+Generate file "D:\fpga\gowin\riscv_5_floor\impl\pnr\riscv_5_floor.rpt.html" completed
+Generate file "D:\fpga\gowin\riscv_5_floor\impl\pnr\riscv_5_floor.rpt.txt" completed
+Generate file "D:\fpga\gowin\riscv_5_floor\impl\pnr\riscv_5_floor.tr.html" completed
+Sat Mar 23 13:05:28 2024
+

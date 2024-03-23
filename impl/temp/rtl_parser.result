@@ -1,0 +1,66 @@
+[
+ {
+  "InstFile" : "D:/fpga/gowin/riscv_5_floor/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/fpga/gowin/riscv_5_floor/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/fpga/gowin/riscv_5_floor/src/top.v",
+    "InstLine" : 6,
+    "InstName" : "core_u",
+    "ModuleFile" : "D:/fpga/gowin/riscv_5_floor/src/core.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "core",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/fpga/gowin/riscv_5_floor/src/core.v",
+      "InstLine" : 11,
+      "InstName" : "if_u",
+      "ModuleFile" : "D:/fpga/gowin/riscv_5_floor/src/if/if.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "ifs",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/fpga/gowin/riscv_5_floor/src/if/if.v",
+        "InstLine" : 12,
+        "InstName" : "pc_u",
+        "ModuleFile" : "D:/fpga/gowin/riscv_5_floor/src/if/pc.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "pc"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/fpga/gowin/riscv_5_floor/src/core.v",
+      "InstLine" : 18,
+      "InstName" : "if_id_u",
+      "ModuleFile" : "D:/fpga/gowin/riscv_5_floor/src/if_id.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "if_id"
+     },
+     {
+      "InstFile" : "D:/fpga/gowin/riscv_5_floor/src/core.v",
+      "InstLine" : 27,
+      "InstName" : "id_u",
+      "ModuleFile" : "D:/fpga/gowin/riscv_5_floor/src/id/id.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "id",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/fpga/gowin/riscv_5_floor/src/id/id.v",
+        "InstLine" : 11,
+        "InstName" : "decode_u",
+        "ModuleFile" : "D:/fpga/gowin/riscv_5_floor/src/id/democe.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "decode"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

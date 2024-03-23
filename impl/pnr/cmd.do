@@ -1,0 +1,14 @@
+-d D:\fpga\gowin\riscv_5_floor\impl\gwsynthesis\riscv_5_floor.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst D:\fpga\gowin\riscv_5_floor\src\riscv_5_floor.cst
+-cfg D:\fpga\gowin\riscv_5_floor\impl\pnr\device.cfg
+-gao_crc 1000111001001100
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-rtl_gao

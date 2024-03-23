@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top">
+ <SubModule name="gw_gao_inst_0" Register="608" Alu="10" Lut="471" Bsram="6"/>
+ <SubModule name="core_u">
+  <SubModule name="if_u">
+   <SubModule name="pc_u" Lut="1"/>
+  </SubModule>
+  <SubModule name="if_id_u" Register="1"/>
+ </SubModule>
+</Module>
