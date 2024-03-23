@@ -6,7 +6,7 @@ module id(
 );
 
 wire [31:0] imm;
-wire ctl;
+wire [4:0] ctl;
 wire [4:0] rs1;
 wire [4:0] rs2;
 wire [4:0] rd;
@@ -26,7 +26,7 @@ decode decode_u(
 registers regs_u(
     .clk(clk),
     .rst(rst),
-    .wen(1),
+    .wen(1'b1),
     .rs1(rs1),
     .rs2(rs2),
     .rd(rd),
