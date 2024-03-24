@@ -5,7 +5,7 @@ module test();
 
     initial begin
         rst = 0;
-        #100; 
+        #10; 
         rst = 1;
         #100;
         $finish;

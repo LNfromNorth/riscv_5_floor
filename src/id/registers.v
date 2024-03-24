@@ -1,32 +1,27 @@
 module registers(
     input clk,
-    input rst,
     input wen,
+    // read
     input [4:0] rs1,
     input [4:0] rs2,
-    input [4:0] rd,
-    input  [31:0] rd_v,
     output [31:0] rs1_v,
-    output [31:0] rs2_v
+    output [31:0] rs2_v,
+    // write
+    input [4:0] rd,
+    input  [31:0] rd_v
 );
 
-integer i = 0;
-reg [31:0] reg_files[31:0];
+reg [31:0] reg_files[0:31];
 
+integer i;
 initial begin
-    for(i = 0; i < 32; i = i + 1)
-        reg_files[i] <= 32'b0;
-end
-
-always @(posedge clk or negedge rst) begin
-    if(!rst) begin
-        for(i = 0; i < 32; i = i + 1)
-            reg_files[i] <= 32'b0; 
+    for(i = 0; i < 32; i = i + 1) begin
+        reg_files[i] = 32'd0;
     end
 end
 
 always @(posedge clk) begin
-    if(wen)
+    if(wen & (rd != 0))
         reg_files[rd] <= rd_v;
 end
 
